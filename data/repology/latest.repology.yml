@@ -53,6 +53,22 @@
     - sheila@vulpine.house
   licenses:
     - GPL-2.0+ AND LGPL-2.1+
+- repo: ubuntu_14_04
+  subrepo: trusty/main
+  srcname: libstatgrab
+  binnames:
+    - libstatgrab9
+    - libstatgrab-dev
+    - saidar
+    - statgrab
+  visiblename: libstatgrab
+  version: "0.90"
+  origversion: 0.90-1.1ubuntu1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - libs
 - repo: adelie_current
   subrepo: user
   srcname: libstatgrab
@@ -69,19 +85,6 @@
 - repo: alpine_3_17
   subrepo: community
   srcname: libstatgrab
-  binname: libstatgrab-doc
-  visiblename: libstatgrab-doc
-  version: 0.92.1
-  origversion: 0.92.1-r0
-  status: newest
-  summary: Cross platform library for accessing system statistics (documentation)
-  maintainers:
-    - aaloytorrens@gmail.com
-  licenses:
-    - LGPL-2.0-or-later
-- repo: alpine_3_17
-  subrepo: community
-  srcname: libstatgrab
   binname: libstatgrab
   visiblename: libstatgrab
   version: 0.92.1
@@ -105,6 +108,19 @@
     - aaloytorrens@gmail.com
   licenses:
     - LGPL-2.0-or-later
+- repo: alpine_3_17
+  subrepo: community
+  srcname: libstatgrab
+  binname: libstatgrab-doc
+  visiblename: libstatgrab-doc
+  version: 0.92.1
+  origversion: 0.92.1-r0
+  status: newest
+  summary: Cross platform library for accessing system statistics (documentation)
+  maintainers:
+    - aaloytorrens@gmail.com
+  licenses:
+    - LGPL-2.0-or-later
 - repo: alpine_3_18
   subrepo: community
   srcname: libstatgrab
@@ -417,20 +433,20 @@
     - aaloytorrens@gmail.com
   licenses:
     - LGPL-2.0-or-later
-- repo: ubuntu_14_04
-  subrepo: trusty/main
+- repo: ubuntu_16_04
+  subrepo: xenial/main
   srcname: libstatgrab
   binnames:
-    - libstatgrab9
+    - libstatgrab10
     - libstatgrab-dev
     - saidar
     - statgrab
   visiblename: libstatgrab
-  version: "0.90"
-  origversion: 0.90-1.1ubuntu1
+  version: "0.91"
+  origversion: 0.91-1
   status: outdated
   maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
+    - fenio@debian.org
   categories:
     - libs
 - repo: alt_p11
@@ -621,6 +637,17 @@
   summary: Cross-platform library for system statistics (development files)
   licenses:
     - GPL-2.0-or-later AND LGPL-2.1-or-later
+- repo: nix_stable_24_05
+  srcname: libstatgrab
+  visiblename: libstatgrab
+  version: 0.92.1
+  origversion: null
+  status: newest
+  summary: A library that provides cross platforms access to statistics about the running system
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - GPL-2.0
 - repo: chimera
   subrepo: main
   srcname: libstatgrab
@@ -1151,18 +1178,6 @@
     - LGPLv2+ and GPLv2+
   categories:
     - Monitoring
-- repo: opensuse_leap_15_5
-  subrepo: main/oss
-  srcname: libstatgrab
-  visiblename: libstatgrab
-  version: 0.92.1
-  origversion: 0.92.1-bp155.1.5
-  status: newest
-  summary: Interface to System Statistics
-  licenses:
-    - LGPL-2.1-or-later
-  categories:
-    - Development/Libraries/C and C++
 - repo: mageia_9
   subrepo: core/release
   srcname: libstatgrab
@@ -1233,17 +1248,6 @@
   licenses:
     - LGPL
     - GPL
-- repo: nix_stable_24_05
-  srcname: libstatgrab
-  visiblename: libstatgrab
-  version: 0.92.1
-  origversion: null
-  status: newest
-  summary: A library that provides cross platforms access to statistics about the running system
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - GPL-2.0
 - repo: nix_stable_24_11
   srcname: libstatgrab
   visiblename: libstatgrab
@@ -1454,6 +1458,18 @@
     - LGPLv2+
   categories:
     - Monitoring
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: libstatgrab
+  visiblename: libstatgrab
+  version: 0.92.1
+  origversion: 0.92.1-bp155.1.5
+  status: newest
+  summary: Interface to System Statistics
+  licenses:
+    - LGPL-2.1-or-later
+  categories:
+    - Development/Libraries/C and C++
 - repo: opensuse_leap_15_6
   subrepo: main/oss
   srcname: libstatgrab
@@ -1783,22 +1799,6 @@
     - fenio@debian.org
   categories:
     - libs
-- repo: ubuntu_16_04
-  subrepo: xenial/main
-  srcname: libstatgrab
-  binnames:
-    - libstatgrab10
-    - libstatgrab-dev
-    - saidar
-    - statgrab
-  visiblename: libstatgrab
-  version: "0.91"
-  origversion: 0.91-1
-  status: outdated
-  maintainers:
-    - fenio@debian.org
-  categories:
-    - libs
 - repo: ubuntu_18_04
   subrepo: bionic/main
   srcname: libstatgrab
@@ -1964,7 +1964,7 @@
   status: newest
   summary: A library that provides cross platform access to statistics about the system on which it's run
   maintainers:
-    - fallback-mnt-vylen@repology
+    - wonkru-dev@proton.me
 - repo: xrepo
   srcname: libstatgrab
   visiblename: libstatgrab
