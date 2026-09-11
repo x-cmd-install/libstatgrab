@@ -7,7 +7,7 @@ about:
   latestVersion: "LIBSTATGRAB_0_92_1"
   latestRelease: "LIBSTATGRAB_0_92_1"
   latestPrerelease: ""
-  collectedAt: 2026-09-11T05:29:39Z
+  collectedAt: 2026-09-11T19:31:11Z
 timeline:
   created: 2012-01-12
   lastCommit: 2026-09-03
@@ -87,7 +87,7 @@ total:
   commit: 944
 ---
 path: /home/runner/.x-repo/github.com/i-scream/libstatgrab
-collectedAt: 2026-09-11T05:29:42Z
+collectedAt: 2026-09-11T19:31:12Z
 loc:
   C:
     code: 11378
