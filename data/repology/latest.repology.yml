@@ -1,3 +1,19 @@
+- repo: kali_rolling
+  subrepo: main
+  srcname: libstatgrab
+  binnames:
+    - libstatgrab10t64
+    - libstatgrab-dev
+    - saidar
+    - statgrab
+  visiblename: libstatgrab
+  version: 0.92.1
+  origversion: 0.92.1-1.2
+  status: newest
+  maintainers:
+    - fenio@debian.org
+  categories:
+    - libs
 - repo: adelie_current
   subrepo: user
   srcname: libstatgrab
@@ -115,22 +131,6 @@
     - aaloytorrens@gmail.com
   licenses:
     - LGPL-2.0-or-later
-- repo: debian_11
-  subrepo: bullseye/main
-  srcname: libstatgrab
-  binnames:
-    - libstatgrab10
-    - libstatgrab-dev
-    - saidar
-    - statgrab
-  visiblename: libstatgrab
-  version: "0.92"
-  origversion: 0.92-2
-  status: outdated
-  maintainers:
-    - fenio@debian.org
-  categories:
-    - libs
 - repo: alpine_3_18
   subrepo: community
   srcname: libstatgrab
@@ -248,22 +248,6 @@
     - aaloytorrens@gmail.com
   licenses:
     - LGPL-2.0-or-later
-- repo: kali_rolling
-  subrepo: main
-  srcname: libstatgrab
-  binnames:
-    - libstatgrab10t64
-    - libstatgrab-dev
-    - saidar
-    - statgrab
-  visiblename: libstatgrab
-  version: 0.92.1
-  origversion: 0.92.1-1.2
-  status: newest
-  maintainers:
-    - fenio@debian.org
-  categories:
-    - libs
 - repo: alpine_3_21
   subrepo: community
   srcname: libstatgrab
@@ -703,6 +687,22 @@
     - orphaned@cygwin
   categories:
     - System
+- repo: debian_11
+  subrepo: bullseye/main
+  srcname: libstatgrab
+  binnames:
+    - libstatgrab10
+    - libstatgrab-dev
+    - saidar
+    - statgrab
+  visiblename: libstatgrab
+  version: "0.92"
+  origversion: 0.92-2
+  status: outdated
+  maintainers:
+    - fenio@debian.org
+  categories:
+    - libs
 - repo: debian_12
   subrepo: bookworm/main
   srcname: libstatgrab
@@ -912,17 +912,6 @@
     - LGPL-2.1-or-later
   categories:
     - Development/Libraries/C and C++
-- repo: nix_stable_24_05
-  srcname: libstatgrab
-  visiblename: libstatgrab
-  version: 0.92.1
-  origversion: null
-  status: newest
-  summary: A library that provides cross platforms access to statistics about the running system
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - GPL-2.0
 - repo: fedora_40
   subrepo: release
   srcname: libstatgrab
@@ -1190,6 +1179,17 @@
   licenses:
     - LGPL
     - GPL
+- repo: nix_stable_24_05
+  srcname: libstatgrab
+  visiblename: libstatgrab
+  version: 0.92.1
+  origversion: null
+  status: newest
+  summary: A library that provides cross platforms access to statistics about the running system
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - GPL-2.0
 - repo: nix_stable_24_11
   srcname: libstatgrab
   visiblename: libstatgrab
@@ -1700,6 +1700,16 @@
     - ponce@slackbuilds.org
   categories:
     - libraries
+- repo: starkos
+  subrepo: main
+  srcname: libstatgrab
+  visiblename: libstatgrab
+  version: 0.92.1
+  origversion: 0.92.1-1
+  status: newest
+  summary: A library that provides cross platform access to statistics about the system on which it's run
+  maintainers:
+    - starkos@disroot.org
 - repo: t2
   srcname: libstatgrab
   visiblename: libstatgrab
