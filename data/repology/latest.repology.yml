@@ -1,5 +1,29 @@
-- repo: devuan_unstable
-  subrepo: unstable/main
+- repo: cygwin
+  srcname: libstatgrab
+  binname: libstatgrab10
+  visiblename: libstatgrab10
+  version: "0.91"
+  origversion: 0.91-1
+  status: outdated
+  summary: System statistics library
+  maintainers:
+    - orphaned@cygwin
+  categories:
+    - Libs
+- repo: cygwin
+  srcname: libstatgrab
+  binname: statgrab
+  visiblename: statgrab
+  version: "0.91"
+  origversion: 0.91-1
+  status: outdated
+  summary: System statistics library
+  maintainers:
+    - orphaned@cygwin
+  categories:
+    - System
+- repo: kali_rolling
+  subrepo: main
   srcname: libstatgrab
   binnames:
     - libstatgrab10t64
@@ -10,60 +34,6 @@
   version: 0.92.1
   origversion: 0.92.1-1.2
   status: newest
-  maintainers:
-    - fenio@debian.org
-  categories:
-    - libs
-- repo: pld
-  srcname: libstatgrab
-  visiblename: libstatgrab
-  version: 0.92.1
-  origversion: 0.92.1-2
-  status: newest
-- repo: deepin_25
-  subrepo: main
-  srcname: libstatgrab
-  binnames:
-    - libstatgrab10
-    - libstatgrab-dev
-    - saidar
-    - statgrab
-  visiblename: libstatgrab
-  version: 0.92.1
-  origversion: 0.92.1-1
-  status: newest
-  maintainers:
-    - fenio@debian.org
-  categories:
-    - libs
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: libstatgrab
-  binnames:
-    - libstatgrab-dev
-    - libstatgrab10
-    - saidar
-    - statgrab
-  visiblename: libstatgrab
-  version: "0.91"
-  origversion: 0.91-1
-  status: outdated
-  maintainers:
-    - fenio@debian.org
-  categories:
-    - libdevel
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: libstatgrab
-  binnames:
-    - libstatgrab10
-    - libstatgrab-dev
-    - saidar
-    - statgrab
-  visiblename: libstatgrab
-  version: "0.92"
-  origversion: 0.92-2
-  status: outdated
   maintainers:
     - fenio@debian.org
   categories:
@@ -123,6 +93,19 @@
 - repo: alpine_3_17
   subrepo: community
   srcname: libstatgrab
+  binname: libstatgrab-doc
+  visiblename: libstatgrab-doc
+  version: 0.92.1
+  origversion: 0.92.1-r0
+  status: newest
+  summary: Cross platform library for accessing system statistics (documentation)
+  maintainers:
+    - aaloytorrens@gmail.com
+  licenses:
+    - LGPL-2.0-or-later
+- repo: alpine_3_17
+  subrepo: community
+  srcname: libstatgrab
   binname: libstatgrab
   visiblename: libstatgrab
   version: 0.92.1
@@ -142,19 +125,6 @@
   origversion: 0.92.1-r0
   status: newest
   summary: Cross platform library for accessing system statistics (development files)
-  maintainers:
-    - aaloytorrens@gmail.com
-  licenses:
-    - LGPL-2.0-or-later
-- repo: alpine_3_17
-  subrepo: community
-  srcname: libstatgrab
-  binname: libstatgrab-doc
-  visiblename: libstatgrab-doc
-  version: 0.92.1
-  origversion: 0.92.1-r0
-  status: newest
-  summary: Cross platform library for accessing system statistics (documentation)
   maintainers:
     - aaloytorrens@gmail.com
   licenses:
@@ -224,22 +194,6 @@
     - aaloytorrens@gmail.com
   licenses:
     - LGPL-2.0-or-later
-- repo: debian_unstable
-  subrepo: sid/main
-  srcname: libstatgrab
-  binnames:
-    - libstatgrab10t64
-    - libstatgrab-dev
-    - saidar
-    - statgrab
-  visiblename: libstatgrab
-  version: 0.92.1
-  origversion: 0.92.1-1.2
-  status: newest
-  maintainers:
-    - fenio@debian.org
-  categories:
-    - libs
 - repo: alpine_3_19
   subrepo: community
   srcname: libstatgrab
@@ -357,20 +311,6 @@
     - aaloytorrens@gmail.com
   licenses:
     - LGPL-2.0-or-later
-- repo: deepin_unstable
-  subrepo: main
-  srcname: libstatgrab
-  binnames:
-    - libstatgrab10
-    - libstatgrab-dev
-    - saidar
-    - statgrab
-  visiblename: libstatgrab
-  version: "0.91"
-  origversion: 0.91-1+apricot
-  status: outdated
-  maintainers:
-    - fenio@debian.org
 - repo: alpine_3_22
   subrepo: community
   srcname: libstatgrab
@@ -488,22 +428,6 @@
     - aaloytorrens@gmail.com
   licenses:
     - LGPL-2.0-or-later
-- repo: deepin_23
-  subrepo: main
-  srcname: libstatgrab
-  binnames:
-    - libstatgrab10
-    - libstatgrab-dev
-    - saidar
-    - statgrab
-  visiblename: libstatgrab
-  version: 0.92.1
-  origversion: 0.92.1-1
-  status: newest
-  maintainers:
-    - fenio@debian.org
-  categories:
-    - libs
 - repo: alpine_edge
   subrepo: community
   srcname: libstatgrab
@@ -763,30 +687,6 @@
     - orphaned@cygwin
   categories:
     - Doc
-- repo: cygwin
-  srcname: libstatgrab
-  binname: libstatgrab10
-  visiblename: libstatgrab10
-  version: "0.91"
-  origversion: 0.91-1
-  status: outdated
-  summary: System statistics library
-  maintainers:
-    - orphaned@cygwin
-  categories:
-    - Libs
-- repo: cygwin
-  srcname: libstatgrab
-  binname: statgrab
-  visiblename: statgrab
-  version: "0.91"
-  origversion: 0.91-1
-  status: outdated
-  summary: System statistics library
-  maintainers:
-    - orphaned@cygwin
-  categories:
-    - System
 - repo: debian_11
   subrepo: bullseye/main
   srcname: libstatgrab
@@ -837,6 +737,100 @@
     - libs
 - repo: debian_14
   subrepo: forky/main
+  srcname: libstatgrab
+  binnames:
+    - libstatgrab10t64
+    - libstatgrab-dev
+    - saidar
+    - statgrab
+  visiblename: libstatgrab
+  version: 0.92.1
+  origversion: 0.92.1-1.2
+  status: newest
+  maintainers:
+    - fenio@debian.org
+  categories:
+    - libs
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: libstatgrab
+  binnames:
+    - libstatgrab10t64
+    - libstatgrab-dev
+    - saidar
+    - statgrab
+  visiblename: libstatgrab
+  version: 0.92.1
+  origversion: 0.92.1-1.2
+  status: newest
+  maintainers:
+    - fenio@debian.org
+  categories:
+    - libs
+- repo: deepin_unstable
+  subrepo: main
+  srcname: libstatgrab
+  binnames:
+    - libstatgrab10
+    - libstatgrab-dev
+    - saidar
+    - statgrab
+  visiblename: libstatgrab
+  version: "0.91"
+  origversion: 0.91-1+apricot
+  status: outdated
+  maintainers:
+    - fenio@debian.org
+- repo: deepin_23
+  subrepo: main
+  srcname: libstatgrab
+  binnames:
+    - libstatgrab10
+    - libstatgrab-dev
+    - saidar
+    - statgrab
+  visiblename: libstatgrab
+  version: 0.92.1
+  origversion: 0.92.1-1
+  status: newest
+  maintainers:
+    - fenio@debian.org
+  categories:
+    - libs
+- repo: deepin_25
+  subrepo: main
+  srcname: libstatgrab
+  binnames:
+    - libstatgrab10
+    - libstatgrab-dev
+    - saidar
+    - statgrab
+  visiblename: libstatgrab
+  version: 0.92.1
+  origversion: 0.92.1-1
+  status: newest
+  maintainers:
+    - fenio@debian.org
+  categories:
+    - libs
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: libstatgrab
+  binnames:
+    - libstatgrab10
+    - libstatgrab-dev
+    - saidar
+    - statgrab
+  visiblename: libstatgrab
+  version: "0.92"
+  origversion: 0.92-2
+  status: outdated
+  maintainers:
+    - fenio@debian.org
+  categories:
+    - libs
+- repo: devuan_unstable
+  subrepo: unstable/main
   srcname: libstatgrab
   binnames:
     - libstatgrab10t64
@@ -1003,6 +997,22 @@
     - LGPL-2.1-or-later
   categories:
     - Unspecified
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: libstatgrab
+  binnames:
+    - libstatgrab-dev
+    - libstatgrab10
+    - saidar
+    - statgrab
+  visiblename: libstatgrab
+  version: "0.91"
+  origversion: 0.91-1
+  status: outdated
+  maintainers:
+    - fenio@debian.org
+  categories:
+    - libdevel
 - repo: fedora_rawhide
   subrepo: development
   srcname: libstatgrab
@@ -1061,22 +1071,6 @@
   origversion: null
   status: newest
   summary: Provides cross-platform access to statistics about the system
-- repo: kali_rolling
-  subrepo: main
-  srcname: libstatgrab
-  binnames:
-    - libstatgrab10t64
-    - libstatgrab-dev
-    - saidar
-    - statgrab
-  visiblename: libstatgrab
-  version: 0.92.1
-  origversion: 0.92.1-1.2
-  status: newest
-  maintainers:
-    - fenio@debian.org
-  categories:
-    - libs
 - repo: liguros_stable
   srcname: sys-libs/libstatgrab
   visiblename: sys-libs/libstatgrab
@@ -1159,7 +1153,7 @@
   binname: libstatgrab
   visiblename: libstatgrab
   version: 0.92.1
-  origversion: 0.92.1-1
+  origversion: 0.92.1-2
   status: newest
   summary: A library that provides cross platform access to statistics about the system on which it's run
   licenses:
@@ -1171,7 +1165,7 @@
   binname: libstatgrab
   visiblename: libstatgrab
   version: 0.92.1
-  origversion: 0.92.1-1
+  origversion: 0.92.1-2
   status: newest
   summary: A library that provides cross platform access to statistics about the system on which it's run
   licenses:
@@ -1278,22 +1272,6 @@
   summary: libstatgrab is a cross platform library for accessing system statistics
   categories:
     - Development/C
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: libstatgrab
-  binnames:
-    - libstatgrab-dev
-    - libstatgrab10
-    - saidar
-    - statgrab
-  visiblename: libstatgrab
-  version: "0.92"
-  origversion: 0.92-2
-  status: outdated
-  maintainers:
-    - fenio@debian.org
-  categories:
-    - libdevel
 - repo: openmamba
   subrepo: base
   srcname: libstatgrab
@@ -1370,22 +1348,6 @@
     - LGPLv2+
   categories:
     - Monitoring
-- repo: ubuntu_20_04
-  subrepo: focal/main
-  srcname: libstatgrab
-  binnames:
-    - libstatgrab10
-    - libstatgrab-dev
-    - saidar
-    - statgrab
-  visiblename: libstatgrab
-  version: "0.92"
-  origversion: 0.92-2
-  status: outdated
-  maintainers:
-    - fenio@debian.org
-  categories:
-    - libs
 - repo: openmandriva_rolling
   subrepo: main/release
   srcname: libstatgrab
@@ -1514,7 +1476,7 @@
   categories:
     - libs
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: libstatgrab
   binnames:
     - libstatgrab10t64
@@ -1530,7 +1492,7 @@
   categories:
     - libs
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: libstatgrab
   binnames:
     - libstatgrab10t64
@@ -1604,6 +1566,28 @@
     - pkgsrc-users@netbsd.org
   categories:
     - devel
+- repo: pld
+  srcname: libstatgrab
+  visiblename: libstatgrab
+  version: 0.92.1
+  origversion: 0.92.1-2
+  status: newest
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: libstatgrab
+  binnames:
+    - libstatgrab-dev
+    - libstatgrab10
+    - saidar
+    - statgrab
+  visiblename: libstatgrab
+  version: "0.92"
+  origversion: 0.92-2
+  status: outdated
+  maintainers:
+    - fenio@debian.org
+  categories:
+    - libdevel
 - repo: pureos_landing
   subrepo: landing/main
   srcname: libstatgrab
@@ -1787,6 +1771,22 @@
     - ubuntu-devel-discuss@lists.ubuntu.com
   categories:
     - libs
+- repo: ubuntu_20_04
+  subrepo: focal/main
+  srcname: libstatgrab
+  binnames:
+    - libstatgrab10
+    - libstatgrab-dev
+    - saidar
+    - statgrab
+  visiblename: libstatgrab
+  version: "0.92"
+  origversion: 0.92-2
+  status: outdated
+  maintainers:
+    - fenio@debian.org
+  categories:
+    - libs
 - repo: ubuntu_22_04
   subrepo: jammy/main
   srcname: libstatgrab
@@ -1869,6 +1869,22 @@
     - libs
 - repo: ubuntu_26_10
   subrepo: stonking/main
+  srcname: libstatgrab
+  binnames:
+    - libstatgrab10t64
+    - libstatgrab-dev
+    - saidar
+    - statgrab
+  visiblename: libstatgrab
+  version: 0.92.1
+  origversion: 0.92.1-1.2build2
+  status: newest
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - libs
+- repo: ubuntu_27_04
+  subrepo: tenacious/main
   srcname: libstatgrab
   binnames:
     - libstatgrab10t64
