@@ -14,7 +14,7 @@ x install libstatgrab
 
 ## Code insight
 
-Total: **20,526** lines of code across **88** files in the top 5 languages.
+Total: **20,530** lines of code across **88** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
@@ -33,7 +33,7 @@ Total: **20,526** lines of code across **88** files in the top 5 languages.
 ## Release
 
 - **Latest**: `LIBSTATGRAB_0_92_1` (2021-07-28)
-- **Last commit**: 2026-11-02
+- **Last commit**: 2026-11-23
 - **Assets in release**: 2
 
 ## Popularity
@@ -42,18 +42,18 @@ Total: **20,526** lines of code across **88** files in the top 5 languages.
 
 ## Totals (cumulative)
 
-- **Releases**: 33 · **Merged PRs**: 30 · **Open PRs**: 2 · **Closed issues**: 47 · **Open issues**: 42 · **Commits**: 948
+- **Releases**: 33 · **Merged PRs**: 30 · **Open PRs**: 2 · **Closed issues**: 47 · **Open issues**: 42 · **Commits**: 951
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-24 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-25 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-27 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-28 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-12-03 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-10-25 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-25 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-26 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-28 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-29 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-12-04 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -90,4 +90,4 @@ Install metadata for libstatgrab lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261123.yml` · 2026-11-23T08:33:34Z._
+_Snapshot: `data/card/261124.yml` · 2026-11-24T11:20:37Z._
