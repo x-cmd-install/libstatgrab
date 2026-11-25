@@ -48,12 +48,12 @@ x install libstatgrab
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-25 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-26 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-28 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-29 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-12-04 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-10-26 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-26 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-27 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-29 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-30 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-12-05 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release 资产
 
@@ -61,25 +61,6 @@ x install libstatgrab
 |------|-----:|----------|
 | [libstatgrab-0.92.1.tar.gz](https://github.com/i-scream/libstatgrab/releases/download/LIBSTATGRAB_0_92_1/libstatgrab-0.92.1.tar.gz) | 798.4 KiB | `native/unknown` |
 | [libstatgrab-0.92.1.tar.gz.asc](https://github.com/i-scream/libstatgrab/releases/download/LIBSTATGRAB_0_92_1/libstatgrab-0.92.1.tar.gz.asc) | 1.8 KiB | `other` |
-
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/libstatgrab) 上共有 **137** 个发行版报告此项目。**119** 个 ✅ 已是最新上游版本，**18** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `0.92.1` | ✅ latest |
-| Debian 14 | `0.92.1` | ✅ latest |
-| Debian 13 | `0.92.1` | ✅ latest |
-| Ubuntu 26.04 LTS | `0.92.1` | ✅ latest |
-| Ubuntu 24.04 LTS | `0.92.1` | ✅ latest |
-| Arch | `0.92.1` | ✅ latest |
-| Homebrew | `0.92.1` | ✅ latest |
-| Fedora rawhide | `0.92.1` | ✅ latest |
-| Nix unstable | `0.92.1` | ✅ latest |
-| Void | `0.92.1` | ✅ latest |
-| Alpine edge | `0.92.1` | ✅ latest |
-| openSUSE Tumbleweed | `0.92.1` | ✅ latest |
 
 ## 改进这些数据
 
@@ -90,4 +71,4 @@ libstatgrab 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/insta
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261124.yml` · 2026-11-24T11:20:38Z._
+_数据快照: `data/card/261125.yml` · 2026-11-25T09:59:14Z._
