@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 846973,
       "digest": "sha256:ff559fcd4da75a4023af986c02c52ad51d4b68ae83fc0c8c461026126a8ebefa",
-      "download_count": 43,
+      "download_count": 48,
       "created_at": "2026-11-25T14:02:20Z",
       "updated_at": "2026-11-25T14:02:23Z",
       "browser_download_url": "https://github.com/libstatgrab/libstatgrab/releases/download/LIBSTATGRAB_0_92_2/libstatgrab-0.92.2.tar.gz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 1861,
       "digest": "sha256:8992f1d685956f16be41a4a548eb5ceabef342e3b0cff3f2624a61126d477e6e",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-11-25T14:02:27Z",
       "updated_at": "2026-11-25T14:02:28Z",
       "browser_download_url": "https://github.com/libstatgrab/libstatgrab/releases/download/LIBSTATGRAB_0_92_2/libstatgrab-0.92.2.tar.gz.asc"
